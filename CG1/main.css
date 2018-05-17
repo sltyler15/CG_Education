@@ -1,0 +1,127 @@
+body {
+  margin: 10;
+}
+
+
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
+.nav1 .nav2 .nav3{
+  font-family: "PT Sans Narrow";
+  font-weight:bold;
+  font-size: 1.875em;
+  color: #323232;
+  margin-top: 80px;
+  margin-bottom: 45px;
+  text-align: center;
+
+/*}
+.nav2 {
+  font-family:"PT Sans Narrow";
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav3 {
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+p {
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: .875em;
+  line-height: 1.75;
+  color: #f26522;
+  display: inline-block;
+}
+nav {
+  text-align: right;
+  height: 80px;
+  display: flex;
+}
+nav h1 {
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+  font-size: 1em;
+  color: #323232;
+  line-height: 80px;
+  margin: 0px;
+  text-align: left;
+  width: 50%;
+}
+nav p {
+  font-family: "PT Sans";
+  font-weight: normal;
+  font-size: .9em;
+  color: #323232;
+  width: 50%;
+  margin: 0px;
+  line-height: 80px;
+}
+footer h1 {
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #323232;
+  height: 125px;
+  background-color: #00897f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TEACHERS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cats img {
+  border-radius: 50%;
+  margin: 22.5px;
+}
+.STUDENTS {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.COURSES {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: #eeeeee;
+  width: 300px;
+  margin: 30px;
+  height: 300px;
+  padding: 30px;
+}
+.box h2 {
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+}
+.splash img {
+  display: block;
+  width:100%;
+  height:auto;
+}
+.box p {
+  margin: 10px;
+}
+h2 p {
+  width: 600px;
+}
