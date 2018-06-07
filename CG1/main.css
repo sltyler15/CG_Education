@@ -10,15 +10,25 @@ body {
 /* On devices wider than 940px */
 @media(min-width: 940px) {
 }
-.nav1 .nav2 .nav3{
+.nav1, .nav2, .nav3{
   font-family: "PT Sans Narrow";
   font-weight:bold;
   font-size: 1.875em;
   color: #323232;
   margin-top: 80px;
   margin-bottom: 45px;
-  text-align: center;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid;
+}
 
+.teachers1, .teachers2, .teachers3, .teachers4, .teachers5{
+  margin-left: 40px;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid;
+  border-color: black;
+}
 /*}
 .nav2 {
   font-family:"PT Sans Narrow";
@@ -83,7 +93,7 @@ footer h1 {
   align-items: center;
   justify-content: center;
 }
-.TEACHERS {
+/*.TEACHERS {
   display: flex;
   align-items: center;
   justify-content: center;
