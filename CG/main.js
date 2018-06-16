@@ -80,3 +80,10 @@ else {
   alert("Please select a course from the list below: "+"\n"+"\n" +courselist)
 console.log(courselist)
 }
+
+/* CG Education: Challenge 3: Step 1 */
+var gradYear = prompt("What is the student's expected grduation year?")
+var gradMonth = prompt("In May?")
+if (gradMonth.length == 0){
+
+}
