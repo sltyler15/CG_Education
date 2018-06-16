@@ -81,9 +81,22 @@ else {
 console.log(courselist)
 }
 
-/* CG Education: Challenge 3: Step 1 */
-var gradYear = prompt("What is the student's expected grduation year?")
-var gradMonth = prompt("In May?")
-if (gradMonth.length == 0){
-
+/* CG Education: Part 3: Challenge 1: Step 1 */
+var gradYear = prompt("What is the student's expected grduation year?");
+if (gradYear.length == 0){
+  alert("Please enter a valid graduation year.")
 }
+var gradMonth = prompt("May or December?")
+if (gradMonth.length == 0){
+  alert("Please try again.")
+}
+
+/* CG Education: Part3: Challenge 1: Step 2 */
+var classYear =
+[
+  ["2018","Senior"],
+  ["2019","Junior"],
+  ["2020","Sophmore"],
+  ["2021","Freshman"]
+]
+/* if the gradYear is greater than 2021m you're still in high school. */
